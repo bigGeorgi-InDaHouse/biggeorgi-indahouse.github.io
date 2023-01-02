@@ -7,6 +7,7 @@ export default defineConfig({
   define: {
     'process.env': process.env
   },
+  base: "https://biggeorgi-indahouse.github.io/",
   css: {
     postcss,
   },
