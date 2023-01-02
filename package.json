@@ -4,7 +4,7 @@
   "homepage": "https://biggeorgi-indahouse.github.io/",
   "private":"false",
   "scripts": {
-    "deploy": "vite",
+    "deploy": "npm run build",
     "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
