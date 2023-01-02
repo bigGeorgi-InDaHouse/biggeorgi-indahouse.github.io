@@ -7,7 +7,7 @@ export default defineConfig({
   define: {
     'process.env': process.env
   },
-  base: '/Visionary/',
+  base: './',
   css: {
     postcss,
   },
