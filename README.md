@@ -17,6 +17,15 @@ npm run dev
 npm run build
 ```
 
+### production preview
+npm run preview
+
+### publish
+$ git add dist -f
+$ git commit -m "Adding dist"
+$ git subtree push --prefix dist origin gh-pages
+
+
 ### Customize configuration
 See [Configuration Reference](https://vitejs.dev/guide/).
 
