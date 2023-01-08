@@ -8,14 +8,14 @@ module.exports = {
       colors: {
         gray: {
           100: '#EBF1F5',
-          200: '#02bfe7', //Used for text
-          300: '#000000', // Menu bar
+          200: '#abdbe3', //Used for text 
+          300: '#FFFFFF', // Menu bar
           400: '#9BA9B4',
           500: '#707D86',
           600: '#55595F',
           700: '#33363A',
           800: '#121212', // background on the dropdown menu
-          900: '#FFFFFF', // Background color
+          900: '#151719', // Background color
         },
         purple: {
           100: '#F4F4FF',
@@ -24,10 +24,13 @@ module.exports = {
           400: '#ABABFF',
           500: '#8D8DFF',
           600: '#000000',
-          700: '#02bfe7',
+          700: '#abdbe3', 
           800: '#38379C',
           900: '#262668',
         },
+        orange: {
+          100: '#F99F38'
+        }
       },
       spacing: {
         '9/16': '56.25%',

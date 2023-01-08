@@ -17,7 +17,7 @@ function FeaturesHome() {
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up" data-aos-anchor="[data-aos-id-features-home]">
                 <div className="relative">
-                  <img className="md:max-w-none" src={FeatIllustration} width="540" height="520" alt="Features illustration" />
+                  <img className="md:max-w-none rounded-lg" src={FeatIllustration} width="540" height="520" alt="Features illustration" />
                   <svg className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="540" height="520" viewBox="0 0 540 520" xmlns="http://www.w3.org/2000/svg">
                     <g className="fill-current text-purple-700">
                       <circle className="pulse" cx="150" cy="-50" r="30" />
@@ -31,7 +31,7 @@ function FeaturesHome() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right" data-aos-anchor="[data-aos-id-features-home]">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">We anticipate and fix problems before they occur</div>
+                  <div className="font-architects-daughter text-xl text-orange-100 mb-2">We anticipate and fix problems before they occur</div>
                   <h3 className="h3 mb-3">We are experts in the following areas:</h3>
                   <ul className="flex flex-wrap text-lg text-gray-400 -mx-2 -my-1">
                     <li className="flex items-center mx-2 my-1">
